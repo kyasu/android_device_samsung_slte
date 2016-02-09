@@ -29,18 +29,9 @@ vendor/lib/liblvvetx_3.21.15.so
 vendor/firmware/bcm4350_V0301.0634.hcd
 vendor/firmware/bcm4350_V0301.0636_wisol.hcd
 
-### Camera (KitKat)
+### Camera
 lib/hw/camera.universal5430.so:lib/hw/camera.vendor.universal5430.so
 lib/libexynoscamera.so
-lib/libliveframework.so
-lib/libarcsoft_nighthawk.so
-#lib/libhwjpeg.so
-#lib/libsecnativefeature.so
-#lib/libvdis.so
-
-### Camera
-#lib/hw/camera.universal5430.so:lib/hw/camera.vendor.universal5430.so
-#lib/libexynoscamera.so
 lib/libhwjpeg.so
 lib/libsecnativefeature.so
 lib/libvdis.so
