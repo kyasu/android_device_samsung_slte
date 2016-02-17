@@ -80,13 +80,13 @@ public class SlteRIL extends RIL implements CommandsInterface {
     public SlteRIL(Context context, int preferredNetworkType, int cdmaSubscription) {
         super(context, preferredNetworkType, cdmaSubscription, null);
         mAudioManager = (AudioManager)mContext.getSystemService(Context.AUDIO_SERVICE);
-        mQANElements = 5;
+        mQANElements = 6;
     }
 
     public SlteRIL(Context context, int preferredNetworkType, int cdmaSubscription, Integer instanceId) {
         super(context, preferredNetworkType, cdmaSubscription, instanceId);
         mAudioManager = (AudioManager)mContext.getSystemService(Context.AUDIO_SERVICE);
-        mQANElements = 5;
+        mQANElements = 6;
     }
 
     public void acceptCall(int index, Message result) {
